@@ -28,8 +28,11 @@ class MainActivity : AppCompatActivity() {
 
         val button: Button = findViewById(R.id.btn_next_view)
         button.setOnClickListener {
-            startActivity(Intent(this, SecondActivity::class.java))
+
             finish()
+            Thread.sleep(4000)
+            startActivity(Intent(this, SecondActivity::class.java))
+
         }
 
         Log.d("moongchi", "onCreate: callback")

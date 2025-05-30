@@ -18,6 +18,6 @@ class SecondActivity : AppCompatActivity() {
         }
 
 
-       applicationContext.resources
+        baseContext
     }
 }

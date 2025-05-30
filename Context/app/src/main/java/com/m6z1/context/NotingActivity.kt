@@ -5,8 +5,5 @@ import android.content.Intent
 
 class NotingActivity : Application() {
 
-    fun haha() {
-        isUiContext
-    }
 }
 
